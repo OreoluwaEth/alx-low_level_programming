@@ -4,7 +4,6 @@
 * print_alphabet - Print the alphabet in lowercase.
 *using ASCII CODE
 * Return: void.
-
 */
 
 void print_alphabet(void)
