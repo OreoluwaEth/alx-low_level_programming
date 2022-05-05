@@ -17,7 +17,7 @@ for (i = 0; i < ac; i++)
 for (j = 0; av[i][j]; j++)
 m++;
 }
-s = (char *) malloc((sizeof(char) * m) + 1);
+s = (char *) malloc((sizeof(char) * m) +1);
 if (s == NULL)
 return (NULL);
 for (i = 0; i < ac; i++)
