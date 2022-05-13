@@ -1,16 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
-* main - prints opcode of own main function
-*
-* @argc: argument count
-* @argv: arg value
-* Return: int
-*/
+ * main - prints opcode of own main function
+ *
+ * @argc: argument count
+ * @argv: arg value
+ * Return: int
+ */
 int main(int argc, char *argv[])
 {
 int x, i;
 unsigned char *p;
+
 if (argc != 2)
 {
 printf("Error\n");
@@ -20,7 +21,7 @@ x = atoi(argv[1]);
 if (x < 0)
 {
 printf("Error\n");
-exit(2)
+exit(2);
 }
 p = (unsigned char *)main;
 i = 0;
